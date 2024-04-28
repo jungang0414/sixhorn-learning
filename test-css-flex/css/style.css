@@ -1,0 +1,261 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my css*/
+
+.wrap {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/* content */
+.course {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.course-item {
+  width: 300px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.course-item h2 {
+  text-align: center;
+}
+
+.course-item p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.course-item span {
+  letter-spacing: 4px;
+}
+
+.course-item ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.course-item li {
+  list-style: disc;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background: #004466;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link a {
+  width: 100px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #00ffa2;
+
+  &:hover {
+    background: #00ffa2;
+    color: #004466;
+  }
+}
+
+/* banner */
+.banner {
+  margin-bottom: 20px;
+  background: url("https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png");
+}
+
+.banner p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  font-size: 48px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: gray;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.footer-icon a {
+  text-decoration: none;
+}
+
+.footer img {
+  padding-left: 20px;
+}
